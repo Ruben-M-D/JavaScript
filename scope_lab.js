@@ -1,10 +1,5 @@
-function show(){
-    var functionVar = "I'm a block-scoped var";
-    let functionLet = "I'm a block-scoped let";
-    const functionConst = "I'm a block-scoped const";
+{
+    let a = "a";
+    const b = "b";
+    var c = "c";
 }
-
-show();
-console.log(functionVar);
-console.log(functionLet);
-console.log(functionConst); 
